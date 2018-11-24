@@ -1,0 +1,115 @@
+body{background:#F8F8F8;height: 1100px;}
+#wrap{background:#fff;}
+header{animation:lb 20s linear infinite alternate;  width: 100%;height: 320px;background:url(../images/807054893.jpg);background-size:cover;position: relative;}
+@keyframes lb{
+	0%{}
+	25%{background:url(../images/419994402.jpg);background-size:cover;}
+	50%{background:url(../images/-1701477229.jpg);background-size:cover;}
+	75%{background:url(../images/1641315809.jpg);background-size:cover;}
+	100%{background:url(../images/1255098272.jpg);background-size:cover;}
+}
+header .top{width: 100%;height: 30px;position:absolute;top:4%;}
+header .top p,header .foot p{width: 100%;height: 30px;position: relative;}
+header .top p i{display:inline-block;height: 30px;width: 30px;background:rgba(0,0,0,.5) url(../images/abc_ic_ab_back_mtrl_am_alpha.png);background-size:100%;border-radius: 50%;margin-left: 4%;}
+header .top p em{ position:absolute;right:18%;  display:inline-block;height: 30px;width: 30px;background:rgba(0,0,0,.5) url(../images/abc_ic_menu_copy_mtrl_am_alpha.png) no-repeat 3px 4px;background-size:80%;border-radius: 50%; }
+header .top p b{position:absolute;right:4%; display:inline-block;height: 30px;width: 30px;background:rgba(0,0,0,.5) url(../images/abc_ic_menu_share_mtrl_alpha.png) no-repeat 1px 4px;background-size:80%;border-radius: 50%; }
+header .foot{width: 100%;height: 30px;position: absolute;bottom:4%;}
+header .foot p a{display:inline-block;width: 30px; text-align: center; background:-webkit-linear-gradient(left,#FF8F00,#FF5100);color:#fff;padding:1% 2%;border-radius:12px;font-size: .7rem;}
+header .foot p a:nth-child(1){background:rgba(255,255,255,.5);color:#676767;border:none;position:absolute;left:50%;transform:translateX(-130%);}
+header .foot p a:nth-child(2){color:#fff;border:none;position:absolute;left:50%;}
+header .foot p a:nth-child(3){background:rgba(176,176,176,.5);color:#fff;position:absolute;right:4%;}
+
+.xinxi{width: 96%;margin:2% auto;}
+.xinxi .wrap1 .wrap1_top{color:#f40;font-size: 1.2rem;margin-left: 2%;}
+.xinxi .wrap1 .wrap1_top span{font-size: 1rem;}
+.xinxi .wrap1 .wrap1_top i{display: inline-block;border:1px solid #f40;font-size: .7rem;border-radius: 10px;padding:0px 1%;}
+.xinxi .wrap1 .wrap1_btm{color:#8A8A8A;font-size: .8rem;margin-left: 2%;letter-spacing: 1px;}
+.xinxi .wrap2 .wrap2_left{color:#333;font-size: .9rem;width: 80%;padding-left: 2%;float: left;}
+.xinxi .wrap2 .wrap2_left span{background:#FF002D;color:#fff;border-radius: 10px;padding:2px 2%;font-size: .7rem;}
+.xinxi .wrap2 .wrap2_right{float: right;width: 18%;text-align: center;background:#F4F4F4;border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;color:#999;margin-top: 4%;margin-right: -2%;}
+.xinxi .wrap2 .wrap2_right img{width: 30%;}
+.xinxi .wrap2:after{display: block;content: "";clear: both;}
+.xinxi .wrap3{width: 100%;height: 30px;margin:1% 0px;}
+.xinxi .wrap3 ul li{width: 33%;float: left;color:#999999;}
+.xinxi .wrap3 ul li:nth-child(2){text-align: center;}
+.xinxi .wrap3 ul li:nth-child(3){text-align: right;}
+
+section{width: 100%;background:#fff;padding:4% 0px;margin-bottom: 4%;}
+section .youhui dl{padding-top: 2%;overflow: hidden;}
+section .youhui dl dt{width: 20%;color:#999999;font-size: 1rem;text-align: center;float: left;height: 70px;}
+section .youhui dl dd:nth-of-type(1){width: 60%;float: left;line-height: 24px;font-size: .8rem;letter-spacing: 1px;}
+section .youhui dl dd:nth-of-type(1) i{display:block; width:20px;height: 20px;margin-right: 2%;float: left;margin-top: -1%;}
+section .youhui dl dd:nth-of-type(1) i img{width: 100%;}
+section .youhui dl dd:nth-of-type(1) em{color:#f40;}
+section .youhui dl dd:nth-of-type(2){width: 20%;float: left;line-height: 24px;text-align: center;position: relative;}
+section .youhui dl dd:nth-of-type(2) a{color:#999;}
+section .youhui dl dd:nth-of-type(2) a:after{display: block;content:"";width: 6px;height: 6px;position: absolute;top:50%;right:10px;transform:translateY(-50%) rotate(45deg); border:1px solid #999;border-bottom:0px;border-left: 0px  }
+section .youhui dl dd:nth-of-type(3) span{padding:0px 2%;border:1px solid #f40;color:#f40;line-height: 24px;border-radius:10px;font-size: .7rem;}
+section .youhui dl dd:nth-of-type(3) img{width:33%;}
+section .youhui dl dd:nth-of-type(3){border:none;}
+section .youhui dl dd:nth-of-type(4) span{padding:0px 2%;border:1px solid #f40;color:#f40;line-height: 24px;border-radius:10px;font-size: .7rem;}
+section .youhui dl dd:nth-of-type(4){color:#333333;letter-spacing: 1px;}
+
+section .server dl{padding-top: 2%;overflow: hidden;}
+section .server dl dt{width: 20%;color:#999999;font-size: 1rem;text-align: center;float: left;}
+section .server dl dd:nth-of-type(1){width: 60%;float: left;line-height: 24px;font-size: .8rem;letter-spacing: 2px;}
+section .server dl dd:nth-of-type(2){width: 20%;float: left;line-height: 24px;text-align: center;position: relative;}
+section .server dl dd:nth-of-type(2) a{color:#999;}
+section .server dl dd:nth-of-type(2) a:after{display: block;content:"";width: 6px;height: 6px;position: absolute;top:50%;right:10px;transform:translateY(-50%) rotate(45deg); border:1px solid #999;border-bottom:0px;border-left: 0px  }
+
+
+section .guige dl{padding-top: 2%;overflow: hidden;}
+section .guige dl dt{width: 20%;color:#999999;font-size: 1rem;text-align: center;float: left;height: 54px;}
+section .guige dl dd:nth-of-type(1){width: 60%;float: left;line-height: 24px;font-size: .8rem;letter-spacing: 1px;}
+section .guige dl dd:nth-of-type(1) i{display:block; width:20px;height: 20px;margin-right: 2%;float: left;margin-top: -1%;}
+section .guige dl dd:nth-of-type(1) i img{width: 100%;}
+section .guige dl dd:nth-of-type(1) em{color:#f40;}
+section .guige dl dd:nth-of-type(2){width: 20%;float: left;line-height: 24px;text-align: center;position: relative;}
+section .guige dl dd:nth-of-type(2) a{color:#999;}
+section .guige dl dd:nth-of-type(2) a:after{display: block;content:"";width: 6px;height: 6px;position: absolute;top:50%;right:10px;transform:translateY(-50%) rotate(45deg); border:1px solid #999;border-bottom:0px;border-left: 0px ;}
+section .guige dl dd:nth-of-type(3){height: 24px;}
+section .guige dl dd:nth-of-type(3) img{height: 100%;}
+
+main{width: 100%;margin-top: 4%;background:#fff;}
+main .main_one{width: 96%;margin:1% auto;}
+main .main_one dl{overflow: hidden;padding:2% 0px;}
+main .main_one dl dt{width: 65%;color:#333333;font-size: 1rem;text-align:left;float: left;}
+main .main_one dl dd{width: 35%;text-align:center;float: left;position: relative;font-size: 1rem;}
+main .main_one dl dd:nth-of-type(1) a{color:#f40;}
+main .main_one dl dd:nth-of-type(1) a:after{display: block;content:"";width: 6px;height: 6px;position: absolute;top:50%;right:10px;transform:translateY(-50%) rotate(45deg); border:1px solid #f40;border-bottom:0px;border-left: 0px  }
+main .main_two{width: 96%;border-bottom:1px solid #ccc;margin:0px auto;}
+main .main_two p:first-child{height:36px;color:#999999;}
+main .main_two p:first-child img{width:8%;margin-right: 2%;}
+main .main_two p:last-child{letter-spacing: 1px;font-size: .7rem;color:#333;padding-bottom: 4%;}
+
+main .main_three{width: 96%;padding-bottom: 4%;}
+main .main_three  dl{overflow: hidden;margin-top: 4%;}
+main .main_three  dl dt{width: 70%;float: left;}
+main .main_three  dl dt span{color:#fff;background:#f40;float: left;width: 18px;height: 18px;text-align: center;line-height: 18px;margin:0px 2%;}
+main .main_three  dl dd{width: 30%;float: right;text-align: right;color:#9B9B9B;}
+
+
+footer{width: 100%;position:fixed;bottom:0px;height: 56px;}
+footer .left{width: 40%;height: 100%;float: left;}
+footer .left ul li{width:33%;float: left;padding-top: 8px;}
+footer .left ul li img{width: 77%;}
+footer .right{width: 60%;height: 100%;float: left;}
+footer .right button{border:none;outline: none;background:none;color:#fff;padding:0px 8%;}
+footer .right .btn2{ padding:0px 10%; background:#FF7101;height: 40px;border-top-right-radius:20px;border-bottom-right-radius: 20px;margin-top: 8px;}
+footer .right .btn1{height: 40px; background:-webkit-linear-gradient(left,#FFC900,#FF9603);border-top-left-radius:20px;border-bottom-left-radius: 20px;margin-top: 8px;}
+
+
+
+
+
+
+@media(min-width:375px){
+	header{height: 375px;}
+}
+@media(min-width:414px){
+	header{height: 414px;}
+	section .guige dl dd:nth-of-type(3) {height: 24px;}
+	section .guige dl dd:nth-of-type(3) img{height: 120%;}
+	footer{height: 63px;}
+}

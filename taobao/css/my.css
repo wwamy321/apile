@@ -1,0 +1,152 @@
+body{background:#F2F2F2;height: 1500px;}
+header{width: 100%;height: 200px;background:-webkit-linear-gradient(left,#FF8F00,#FF5100);overflow: hidden;}
+header .login_info{width: 96%;height: 60px;margin:5% auto 0px;}
+header .login_info .pic{width: 20%;height: 100%;float: left;}
+header .login_info .pic img{width: 100%;}
+header .login_info .right{width: 80%;height: 100%;float: right;}
+header .login_info .right .username{width: 92%;height: 50%;padding-left: 4%;padding-right: 4%;}
+header .login_info .right .username a:first-child{float: left;font-size: 1.2rem;font-weight: 600;color:#fff;}
+header .login_info .right .username a:last-child{float: right;color:#fff;font-size: 1rem;}
+header .login_info .right .qqzh{width: 96%;height: 50%; padding-left: 4%;}
+header .login_info .right .qqzh img{height: 90%;}
+header .btm{width: 100%;margin-top:40px;overflow: hidden;}
+header .btm>ul li{width: 25%;float: left;text-align: center;font-size: 1rem;}
+header .btm>ul li a{color:#fff;font-size: .8rem;}
+section{width:94%;height:60px;background:#fff;border-radius:14px;margin:-30px auto 0px;}
+section .left{width: 30%;height:80%;margin-left: 5%;float: left;}
+section .left img{width:100%;margin-top: 10%;}
+section .right{width: 64%;height: 100%;float: right;}
+section .right .ri_left{width:65%;height: 100%;float: left;}
+section .right .ri_right{width: 30%;height: 100%;float: right;padding-right:5%;}
+section .right .ri_right>img{width: 100%;margin-top: 20%;}
+section .right .ri_left p{color:#666666;line-height: 18px;}
+section .right .ri_left P:first-child{margin-top:10%;}
+.con1{width: 94%;background:#fff;border-radius: 14px;margin:4% auto 0px;}
+.con1 .title,.con2 .title{width: 100%;height: 30px;border-bottom:1px solid #EEEEE7;line-height: 20px;}
+.con1 .title p,.con2 .title p{padding:2%;}
+.con1 .title span,.con2 .title span{font-size: .9rem;font-weight: 600;padding-left: 2%;}
+.con1 .title a,.con2 .title a{float: right;color:#999999;position: relative;padding-right: 5%;display:inline-block;width: 27%;}
+.con1 .title a:after,.con2 .title a:after{display: block;content: "";width: 6px;height: 6px;border:2px solid #999999;position: absolute;right:5px;top:6px;transform:rotate(45deg);border-bottom:0px;border-left: 0px;}
+.con1 .btm{width: 100%;margin-top: 6%;text-align: center;}
+.con1 .btm ul li{width: 20%;float: left;}
+.con1 .btm ul li a,.con2 .btm ul li a{color:#666666;}
+.con1 .btm ul li img{width: 60%;margin-bottom:15%;}
+.con2{width: 94%;background:#fff;border-radius: 14px;margin:4% auto 0px;}
+.con2 .btm{width: 100%;margin-top: 6%;text-align: center;}
+.con2 .btm ul li{width: 25%;float: left;}
+.con2 .btm ul li img{width: 60%;margin-bottom:5%;}
+.con1:after,.con2:after{display: block;content: "";clear: both;}
+.con3{width: 94%;background:#fff;border-radius: 14px;margin:4% auto 0px;}
+.con3 .title{width: 100%;height: 30px;border-bottom:1px solid #ccc;line-height: 30px;text-align: center;}
+.con3 .title p{width: 100%;height: 100%;font-size: 1rem;color:#000;font-weight: 600;}
+.con3 .title p img{height: 80%;margin-right: 1%;margin-top: -3px;}
+.con3 .con3_btm{width: 100%;height: 100px;}
+.con3 .con3_btm .con3_btm_lf{width: 50%;height: 92%;float: left; padding-top: 8%; text-align: center;}
+.con3 .con3_btm .con3_btm_lf .one{width: 100%;height: 30%;}
+.con3 .con3_btm .con3_btm_lf .one img{height: 100%;}
+.con3 .con3_btm .con3_btm_lf .two{font-size: .9rem;color:#f40;margin-top: 2%;}
+.con3 .con3_btm .con3_btm_lf .three{font-size: .7rem;color:#999;margin-top: 2%;}
+.con3 .con3_btm .con3_btm_ri{width: 50%;height: 92%;float: left; padding-top: 8%; text-align: center;}
+.con3 .con3_btm .con3_btm_ri .one{width: 100%;height: 30%;}
+.con3 .con3_btm .con3_btm_ri .one img{height: 100%;}
+.con3 .con3_btm .con3_btm_ri .two{font-size: .9rem;color:#666;margin-top: 2%;}
+.con3 .con3_btm .con3_btm_ri .three{font-size: .7rem;color:#999;margin-top: 2%;}
+.con3 .btn{width: 100%;text-align: center;padding-bottom: 5%;}
+.con3 .btn button{border:none;background:none;outline: none;font-size: 1rem;color:#f40;border:1px solid #f40;height: 30px;line-height: 30px;padding:0px 4%;border-radius: 20px;}
+.con4{width: 94%;background:#fff;border-radius: 14px;margin:4% auto 0px;}
+.con4 .title{width: 100%;height: 30px;border-bottom:1px solid #ccc;line-height: 30px;text-align: center;}
+.con4 .title p{width: 100%;height: 100%;font-size: 1rem;color:#000;font-weight: 600;}
+.con4 .title p img{height: 80%;margin-right: 1%;margin-top: -3px;}
+.con4 .con4_btm{width: 100%;height: 100px;}
+.con4 .con4_btm .con4_btm_lf{width: 50%;height: 92%;float: left; padding-top: 8%; text-align: center;}
+.con4 .con4_btm .con4_btm_lf .one{width: 100%;height: 36%;font-size: 1.8rem;color:#108EE9;}
+.con4 .con4_btm .con4_btm_lf .one i{font-size: 1rem;}
+.con4 .con4_btm .con4_btm_lf .one img{height: 100%;}
+.con4 .con4_btm .con4_btm_lf .two{font-size: 1rem;color:#666;margin-top: 2%;}
+.con4 .con4_btm .con4_btm_lf .three{font-size: .8rem;color:#999;margin-top: 2%;}
+.con4 .con4_btm .con4_btm_ri{width: 50%;height: 92%;float: left; padding-top: 8%; text-align: center;}
+.con4 .con4_btm .con4_btm_ri .one{width: 100%;height: 36%;font-size: 1.8rem;color:#108EE9;}
+.con4 .con4_btm .con4_btm_ri .one i{font-size: 1rem;}
+.con4 .con4_btm .con4_btm_ri .one img{height: 100%;}
+.con4 .con4_btm .con4_btm_ri .two{font-size: 1rem;color:#666;margin-top: 2%;}
+.con4 .con4_btm .con4_btm_ri .three{font-size: .8rem;color:#999;margin-top: 2%;}
+.con4 .btn{width: 100%;text-align: center;padding-bottom: 5%;}
+.con4 .btn button{border:none;background:none;outline: none;font-size: 1rem;color:#108ee9;border:1px solid #108ee9;height: 30px;line-height: 30px;padding:0px 4%;border-radius: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 375px){
+	header .login_info{height: 68px;}
+	section{height: 68px;}
+	.con1 .title a,.con2 .title a{width: 22%;}
+}
+@media(min-width:414px){
+	header{height: 216px;}
+	header .login_info{height: 72px;}
+	section{height: 72px;}
+	section .right .ri_left P{font-size: 1rem;line-height: 22px;}
+	.con1 .title a,.con2 .title a{width: 22%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer ul li:nth-child(5) a{
+	background:url(../images/uik_nav_my_selected.png) no-repeat 0px 0px;
+	background-size:93%;
+}

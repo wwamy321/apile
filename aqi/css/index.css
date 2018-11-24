@@ -1,0 +1,123 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-03 08:57:07
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-05 22:09:16
+*/
+body{height: 1190px;}
+
+header{width: 100%;background:#2E2E30;}
+header>nav{width: 100%;height: 50px;}
+header>nav ul{overflow: hidden;}
+header>nav ul li.list_1{
+	width: 15%;
+	height:50px;
+	float: left;
+	background:url(../images/cip.png) no-repeat center center;
+	background-size:60%;
+}
+header>nav ul li.list_2{
+	width: 70%;
+	float: left;
+	margin-top: 5%;
+	overflow-x:scroll;
+	white-space: nowrap;
+
+}
+::-webkit-scrollbar{
+	display: none;
+	/*隐藏滚动条*/
+}
+header>nav ul li.list_3{
+	width: 15%;
+	height:50px;
+	float: right;
+	background:url(../images/civ.png) no-repeat center center;
+	background-size:100%;
+}
+header>nav ul li.list_2 a{color:#D0D0D0;padding:0px 5%;font-size: .9rem;}
+header>nav ul li.list_2 a:nth-child(1){color:#0BBE06;position:relative;}
+header>nav ul li.list_2 a:nth-child(1):after{
+	display: block;
+	content:" ";
+	width: 20px;
+	height: 8px;
+	border-bottom:2px solid #0bbe06;
+	position: absolute;
+	bottom:-5px;
+	left:15px;
+}
+header .secth{width: 100%;height: 50px;}
+header .secth ul li{height: 36px;}
+header .secth .secth_1{width: 66%;float: left; border-radius:20px;margin-left: 4%; margin-top:5px; background:#38383B; }
+header .secth .secth_1 input{ outline: none;color:#fff; background:none;border:none;border-right:1px solid #4C4C4F;margin-top:10px;width:60%;margin-left: 10%;float: left;}
+header .secth .secth_1 i{display: block;float: right;width: 20%;height: 30px;background:url(../images/btc.png) no-repeat; background-size:60%;margin-top: 6px; }
+header .secth .secth_2{width: 15%;float: left;background:url(../images/cj2.png);background-size:90%;}
+header .secth .secth_3{width: 15%;float: left;background:url(../images/cj6.png);background-size:90%; }
+header .banner{width: 100%; height: 160px; background:url(../images/20180803101838.jpg) no-repeat ;background-size:100%;}
+
+section{width: 100%;overflow: hidden;}
+section .section_top{width: 96%; overflow: hidden;margin:10px auto;border-bottom:1px solid #EBEBEB;height: 40px;}
+section .section_top ul li{float: left;width: 19%; margin-left: 1%; text-align: center;background:#F5F5F5;height: 30px;border-radius: 20px;line-height: 30px;}
+section .section_top ul li a{color:#333333;}
+section .section_top ul li:nth-child(1){margin-left: 0px;}
+
+section .section_btm{width: 96%;height: 30px;margin:0px auto 10px;}
+section .section_btm ul li{float: left;height: 30px;}
+ section .section_btm ul li:nth-child(1){width: 20%;text-align: center;height: 30px;border-radius: 15px;background:#FFF6EB;line-height: 30px;}
+ section .section_btm ul li:nth-child(1) span{
+ background: -webkit-linear-gradient(left, #f40 , #f50);     /* 背景色渐变 */
+  -webkit-background-clip: text;         /* 规定背景的划分区域 */
+  -webkit-text-fill-color: transparent;  /* 防止字体颜色覆盖 */}
+ section .section_btm ul li:nth-child(2){width: 65%;font-size: .9rem;color:#666666;line-height: 30px;padding-left: 5%;}
+ section .section_btm ul li:nth-child(3){width: 10%;background:url(../images/src_assets_pprn_groupinfo_more.png) no-repeat 0px 5px; ;background-size:70%;}
+
+main{width: 100%; overflow: hidden;padding-bottom:4%; border-bottom:1px solid #ccc;}
+main dl{width: 49%;overflow: hidden;float: left;margin-top: 2%;}
+main dl:nth-child(odd){margin-right: 2%;}
+main dl dt{width: 100%;}
+main dl dt img{width: 100%;}
+main dl dd{width: 96	%;padding-left: 4%;}
+main dl dd{margin-top: 2%;}
+main dl dd a{color:#333333;font-size: .8rem;}
+main dl dd:nth-of-type(2) a{color:#999999;font-size: .7rem;}
+
+.qcp{width: 100%;height: 200px;margin-top: 4%;}
+.qcp .title i{width: 20%;height: 30px;margin-left: 4%;}
+.qcp .title i img{width: 14%;}
+.qcp .title{width: 100%;font-size: 1.2rem;font-weight: 800;}
+
+.qcp .sp{width: 100%; overflow: hidden;padding-bottom:4%; border-bottom:1px solid #ccc;}
+.qcp .sp dl{width: 49%;overflow: hidden;float: left;margin-top: 2%;}
+.qcp .sp dl:nth-child(odd){margin-right: 2%;}
+.qcp .sp dl dt{width: 100%;}
+.qcp .sp dl dt img{width: 100%;}
+.qcp .sp dl dd{width: 96	%;padding-left: 4%;}
+.qcp .sp dl dd{margin-top: 2%;}
+.qcp .sp dl dd a{color:#333333;font-size: .8rem;}
+.qcp .sp dl dd:nth-of-type(2) a{color:#999999;font-size: .7rem;}
+
+
+
+
+footer ul li:nth-child(1) a{color:#11C00C;}
+footer ul li:nth-child(1) i{background:url(../images/bt3.png);background-size: 100%;}
+
+
+
+
+
+
+
+
+@media(min-width:375px){
+	header .secth{height: 60px;}
+	header .secth ul li{height: 45px;}
+	header .secth .secth_1{height: 40px;}
+	header .banner{height: 188px;}
+}
+
+@media(min-width:414px){
+	header .secth ul li{height: 50px;}
+	header .banner{height: 208px;}
+}

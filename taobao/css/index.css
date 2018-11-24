@@ -1,0 +1,208 @@
+body{background:#F2F2F2;height: 1500px;}
+header{width: 100%;height: 40px;background:-webkit-linear-gradient(left,#FF8F00,#FF5100);}
+header div{float: left;height: 40px;margin-left: 2%;line-height: 40px;}
+header div img{width: 100%;}
+header .one{width: 10%;}
+header .two{width: 60%;height: 30px;border-bottom:1px solid #fff;margin-top: 1%;}
+header .two ul li{height: 30px;line-height: 30px;}
+header .two ul li img{width: 100%;}
+header .two ul li:nth-child(1){width: 10%;float: left;}
+header .two ul li:nth-child(2){width: 80%;float: left;}
+header .two ul li:nth-child(2) input{border:none;outline:none;background:transparent;}
+header .two ul li:nth-child(2) input::-webkit-input-placeholder { color: #fff; }
+header .two ul li:nth-child(3){width: 10%;float: right;} 
+header .three{width: 10%;}
+header .four{width: 10%;}
+
+#banner{
+	width: 100%;
+	height: 100px;
+	background:#f00 url(../images/TB2lfskd2iSBuNkSnhJXXbDcpXa_!!63-0-luban.jpg) no-repeat center center;
+	background-size:100% 100%;
+	position:relative;
+	animation:lb 6s linear infinite alternate;
+}
+#banner .btm{width: 30%;position: absolute;bottom:10%; left:50%; transform: translateX(-50%); }
+#banner .btm ul li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background:#F7F7F7;
+	margin-left: 2%;
+}
+#banner .btm ul li:first-child{background:#FF5000;}
+
+#banner .hux{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	background: url(../images/XXXXXX-1125-480.png_.webp) no-repeat 0px 92px;
+	z-index: 2;
+	background-size:100%;
+	bottom:0px;
+}
+
+
+section{width: 100%;height: 140px;padding-top: 1%;background:#fff;padding-bottom: 1%;}
+section ul{width: 96%;height: 140px;margin:0px auto;}
+section ul li{width: 20%;height: 50%;float: left;text-align: center;}
+section ul li img{width: 100%;margin-bottom:1%;}
+section ul li a{color:#666666;}
+
+.headline{width: 100%;height: 50px;overflow:hidden;}
+.headline img{width: 100%; animation:gund 20s linear  infinite;}
+
+main{width: 96%;margin-top:4%;background:#fff;padding:2%;}
+main .one{width:48%;padding-left:1%;padding-right:1%;height: 100px;float: left;}
+main .one .left .title{width: 94%;height: 40%;padding-left: 6%;}
+main .one .left .title a{color:#F63032;font-weight: bold;letter-spacing:1px;font-size: .8rem;}
+main .one .left,main .one .right{width: 50%;height: 100%;float:left;}
+main .one .left .pic img{width: 80%;}
+main .one .right img{width: 100%;}
+main::after{
+	display: block;
+	content:" ";
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.blue{color:#2AA2F4;}
+.font{font-size: .7rem;font-weight:none;color:#999999;}
+.font1{font-size: .9rem;color:#333;}
+.font2{font-size: .7rem;color:#ADADAD;}
+
+#tv{
+	width: 100%;	
+	margin-top:6%;
+	position: relative;
+	background:#fff;
+}
+#tv .title{
+	position: absolute;
+	width: 100%;
+	height: 24px;
+	background:url(../images/TB1MGnKQFXXXXcAXpXXXXXXXXXX-1125-87.png);
+	background-size: cover;
+	top:-12px;
+}
+#tv>ul li{float: left;width: 33%;height: 106px;margin-left: 1px;margin-top:1px;}
+#tv ul li img{width: 100%;}
+#tv ul li:nth-child(1){width:67%;margin-left: 0px;margin-top:0px;}
+#tv ul li:nth-child(2){width:32%;}
+#tv ul li:nth-child(2) img{height: 100%;}
+#tv::after{
+	display: block;
+	content:" ";
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+#tv .btm{
+	width: 100%;
+}
+#tv .btm ul li{float: left;width: 30%;padding-left: 3%;}
+#tv .btm ul li a p{line-height: 1.2rem;margin-top: 1%;}
+#tv .btm ul li a p:first-child{margin-top: 8%;}
+#tv>p{width: 100%;height: 30px;line-height: 30px;}
+#tv>p a{color:#000;}
+#tv>p a span{border:1px solid #FD1E57;color:#FD1E57;border-radius: 3px;margin-right: 2%;margin-left: 2%;} 
+#tv>p a i{float: right;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer ul li:nth-child(1) a{
+	background:url(../images/uik_nav_home_selected.png) no-repeat 0px 0px;
+	background-size:93%;
+}
+
+
+
+
+
+
+
+
+@keyframes gund{
+	0%{transform: translateY(0px);}
+	20%{transform:translateY(-100%);}
+	40%{transform:translateY(-200%);}
+	60%{transform:translateY(-300%);}
+	80%{transform:translateY(-400%);}
+	100%{transform:translateY(-500%);}
+}
+
+
+
+
+
+
+@keyframes an{
+	0%{
+		background:#f00;
+	}
+}
+@keyframes lb{
+	0%{
+		background:url(../images/TB2lfskd2iSBuNkSnhJXXbDcpXa_!!63-0-luban.jpg) no-repeat center center;
+		background-size:100% 100%;
+}
+	50%{
+		background:url(../images/TB2tgPlGFOWBuNjy0FiXXXFxVXa_!!182-0-lubanu.jpg) no-repeat center center;
+		background-size:100% 100%;
+	}
+	100%{
+		background:url(../images/TB2ZpYzlOQnBKNjSZFmXXcApVXa_!!33-0-lubanu.jpg) no-repeat center center;
+		background-size:100% 100%;
+	}
+}
+
+
+
+
+
+
+
+
+@media(min-width: 375px){
+	header{height: 50px;}
+	header div{height: 50px;line-height: 50px;}
+	header .two{margin-top: 2%;}
+	#banner{height:120px;}
+	.headline{height: 60px;}
+	main .one{height: 110px;}
+	#tv>ul li{height: 124px;}
+}
+@media(min-width: 414px){
+	#banner{height:132px;}
+	section{height: 176px;}
+	section ul{height: 176px;}
+	section ul li img{width: 100%;margin-bottom:5%;}
+	.headline{height: 65px;}
+	main .one{height: 120px;}
+	#tv>ul li{height: 137px;}
+}

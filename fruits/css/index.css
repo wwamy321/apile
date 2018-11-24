@@ -1,0 +1,180 @@
+/*nav*/
+#header{width: 100%;height:110px;}
+#header .logo{width: 500px;height: 120px;margin-left: 80px;}
+#header .logo a img{margin-top:42px;}
+#header .nav{width: 700px;height:120px;margin-right:60px;}
+#header .nav ul li{float: left;width: 128px;height: 120px;text-align: center;line-height: 120px;}
+#header .nav ul li a{font-size:14px;display:block;margin-right: 2px;font-size: 16px;}
+#header .nav ul li:first-child a{background:#F13A3A;color: #fff;}
+#header .nav ul li:hover a{background:#F13A3A;color: #fff;}
+#header::after{content:"";display:block;clear:both;}
+
+
+/*banner*/
+#banner{width: 100%;height: 720px;background:red url(../images/banner-bg.jpg) no-repeat;background-size: 100% 100%;margin-top: 10px;position:relative;}
+#banner .Paging{width: 100%;height: 720px;}
+#banner .Paging .left{position:absolute;left:70px;top: 50%;z-index: 1;}
+#banner .Paging .right{position:absolute;right:70px;top: 50%;z-index: 1;}
+#banner .con{width:100%;}
+#banner .con .left{position:absolute;left:226px;top:120px;width: 520px;height: 480px;}
+#banner .con .left img{width: 100%;}
+#banner .con .right{position:absolute;right:182px;top:160px;width: 500px;height: 500px;}
+#banner .con .roght img{width: 100%;}
+
+
+/*contenr*/
+#content{width:100%;}
+#content .Drink{width:1080px;height:600px;background:url(../images/ADo4MiryQEw8wM47QM.png) no-repeat center center;margin:0 auto;}
+#content .Drink .title{width: 1080px;height:130px;text-align: center;padding-top: 80px;}
+#content .Drink .title h1{font-weight:400;}
+#content .Drink .title p{margin-top: 20px;color: #999999;font-size: 14px;}
+#content .Drink .list ul li{float:left;width: 200px;text-align: center;margin-left: 70px;}
+
+/*第一部分 end*/
+
+#content .about{width: 100%;height: 800px;background:url(../images/4oAY.jpg) no-repeat -288px 0px;overflow:hidden;}
+#content .about .top h1{font-weight: 400;color: #fff;text-align: center;margin-top: 40px;}
+#content .about .top p{color: #fff;text-align: center;margin-top: 20px;}
+#content .about .con{width: 1200px;height:500px;background:#fff;margin:120px auto 0px;}
+#content .about .con .left{width: 800px;height: 500px;}
+
+/*图片从右到左划过*/
+#content .about .con .left .js{width: 400px;height: 500px;float: left;position:relative;overflow:hidden;}
+#content .about .con .left .js img{position: absolute;top:0px;left:0px;transition:1s;width: 400px;height:500px;}
+#content .about .con .left .js img:last-child{left:400px;}
+#content .about .con .left .js:hover img{left:0px;}
+/*结束*/
+
+#content .about .con .left .present{width:400px;height:500px;float: right;}
+#content .about .con .left .present h1{font-weight:400;font-size: 18px;margin:50px 0px 31px 28px;}
+#content .about .con .left .present p{width: 338px;font-size: 14px;color: #999;line-height: 28px;margin-left: 31px;}
+#content .about .con .left .present button{padding:14px 24px;background:#2B2B2B;color:#fff;border:none;cursor: pointer;outline: none;border-radius:8px;margin:36px 0px 36px 31px;transition:.6s;}
+#content .about .con .left .present button:hover{background:red;}
+#content .about .con .left .present ul{margin-left: 31px;}
+#content .about .con .left .present ul li{width: 336px;height: 34px;line-height: 34px;border-bottom:1px dashed #ccc;}
+#content .about .con .left .present ul li a span{color:#666666;}
+#contenr .about .con .left .present ul li:hover a{color:#E4393C;}
+#content .about .con .right{width: 400px;height: 500px;}
+
+/*从左到右*/
+#content .about .con .right div{width: 400px;height: 500px;float: left;position:relative;overflow:hidden;}
+#content .about .con .right div img{position: absolute;top:0px;left:0px;transition:1s;width: 400px;height:500px;}
+#content .about .con .right div img:last-child{left:-400px;}
+#content .about .con .right div:hover img{left:0px;}
+/*end*/
+
+/*第二部分 end*/
+
+#content .server{width:900px;height:595px;margin:0 auto;text-align: center;overflow: hidden;}
+#content .server .top h1{margin-top: 80px;font-weight:400;}
+#content .server .top p{margin-top: 20px;color: #999999;font-size: 14px;}
+#content .server .bottom{margin-top: 80px;}
+#content .server .bottom ul{width:180px;}
+#content .server .bottom ul li{width: 180px;margin:0 auto;text-align: center;line-height: 30px;font-size: 12px;color: #999999;}
+#content .server .bottom ul li:nth-child(2){color: #000;font-size: 16px;margin-top: 40px;}
+
+
+/*li阴影*/
+#content .server .bottom ul li:first-child{width: 120px;height:120px;background:#E4393C;border-radius:50%;transition:.6s;}
+#content .server .bottom ul:hover li:first-child{box-shadow:3px 3px 8px #ccc;}
+/*end*/
+
+#content .server .bottom ul li:first-child img{margin-top: 20px;}
+#content .server .bottom .left{margin-left: 0px;}
+#content .server .bottom .cen{margin-left: 180px;}
+#content .server .bottom .right{margin-left: 180px;}
+
+/*第三部分 end*/
+
+
+/*footer*/
+
+#footer{width: 100%;}
+#footer .foot_banner{width:100%;height:450px;background:url(../images/eX3rQIwgA84wgM.jpg) no-repeat center center;position: relative;}
+#footer .foot_banner p{color: #fff;font-size: 26px;position: absolute;bottom: 22px;left:122px;}
+
+/*第一部分 end*/
+
+#footer .con{width: 1200px;height:628px;margin:0px auto;overflow:hidden;}
+#footer .con .points{width: 1200px;height: 200px;margin-top: 70px;}
+#footer .con .points .left{width: 600px;height: 200px;margin-right: 58px;}
+#footer .con .points .right{width: 542px;height: 200px;}
+#footer .con .points .right .bt h1{font-weight: 400;font-size: 18px;margin-top: 10px;}
+#footer .con .points .right .bt p{color:#999999;font-size: 14px;margin-top: 10px;}
+#footer .con .points .right .lb{margin-top: 38px;}
+#footer .con .points .right .lb ul li{font-size: 16px;line-height: 32px;}
+#footer .con .points .right .lb ul li span{padding-right: 16px;	}
+#footer .com .points::after{display:block;content: "";clear: both;}
+
+
+
+
+/*底部特效*/
+#footer .con .picture{margin-top: 54px;}
+#footer .con .picture ul li{
+	float: left;
+	margin-left: 25px;
+	width: 280px;
+	height: 280px;
+	position: relative;
+	}
+#footer .con .picture ul li img{position:absolute;}
+#footer .con .picture ul li span{
+	display:block;
+	width: 280px;
+	height: 280px;
+	position:absolute;
+	background: -webkit-linear-gradient(
+     -15deg,
+     rgba(0,0,255,0) 20%,
+     rgba(255,255,255,1) 30%,
+     rgba(0,0,255,0) 40%) no-repeat -120px  0px;
+	transition:1s;
+}
+#footer .con .picture ul li div{
+	width: 280px;
+	height: 280px;
+	position: absolute;
+	transition:1s;
+	text-align: center;
+	line-height:280px;
+	color:transparent;
+	font-size: 40px;
+}
+#footer .con .picture ul li:hover div{
+	border:1px solid #fff;
+	transform: scale(.8);
+	color: #fff;
+}
+#footer .con .picture ul li:hover span{
+	background:rgba(0,0,255,.2) -webkit-linear-gradient(
+     -15deg,
+     rgba(0,0,255,0) 20%,
+     rgba(255,255,255,1) 30%,
+     rgba(0,0,255,0) 40%) no-repeat 400px  0px;
+}
+
+#footer .con .picture ul li:first-child{margin-left: 0px;}
+#footer .com .picture::after{display:block;content: "";clear: both;}
+
+
+/*第二部分 end*/
+
+#footer .foot{width: 100%;height: 352px;background:url(../images/wUoub3CqAMwlgE4ogI.jpg) repeat-x 0px 0px;background-size: 100% 100%;margin-top: 70px;}
+#footer .foot .top_nav{width: 1030px;height: 262px;margin:0px auto;}
+#footer .foot .top_nav .top_ul{width: 100%;height: 130px;border-bottom: 1px solid #434343;}
+#footer .foot .top_nav .top_ul  ul{width: 1080px;}
+#footer .foot .top_nav .top_ul ul li{float: left;width: 240px;height: 60px;background:red;padding-left: 50px;color: #fff;margin-left: 60px;margin-top: 46px;}
+#footer .foot .top_nav .top_ul li span{color:#999999;}
+#footer .foot .top_nav .top_ul li.list_1{background:url(../images/jgy.png) no-repeat -8px 0px;}
+#footer .foot .top_nav .top_ul li.list_2{background:url(../images/tel.png) no-repeat  -8px  0px;}
+#footer .foot .top_nav .top_ul li.list_3{background:url(../images/emall.png) no-repeat  -8px  0px;}
+#footer .foot .top_nav .btm_ul ul{width: 700px;	margin:60px auto;}
+#footer .foot .top_nav .btm_ul ul li{float: left;}
+#footer .foot .top_nav .btm_ul ul li a{padding:0px 44px;border-right: 1px solid #999;color: #999;}
+#footer .foot .btm_ul ul li:last-child a{border: none;}
+#footer .foot .btm{width: 100%;height:90px;text-align: center;overflow: hidden;}
+#footer .foot .btm p{color: #CCCCCC;margin-top: 38px;}
+#footer .foot .btm p:last-child{margin-top:0px;}
+
+/**第三部分 end/

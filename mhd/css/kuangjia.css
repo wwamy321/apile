@@ -1,0 +1,17 @@
+footer{width: 100%;position:fixed;bottom:0px;background:#fff;border-top:1px solid #ccc;}
+footer ul{width:100%;margin:0px auto;}
+footer ul li{float: left;width: 25%;height: 60px;text-align: center;position: relative;}
+footer ul li i{display:block;width: 40px; height: 40px;background:#f00;position:absolute;left:50%;margin-left: -20px;}
+footer ul li span{position:absolute;bottom: 0px;left:50%;transform:translateX(-50%);}
+footer ul li:nth-child(1) i{background:url(../images/tab_book_rack_normal.png) 0px 0px;}
+footer ul li:nth-child(2) i{background:url(../images/tab_book_shop_normal.png);}
+footer ul li:nth-child(3) i{background:url(../images/tab_community_normal.png);}
+footer ul li:nth-child(4) i{background:url(../images/tab_mine_normal.png);}
+footer ul li a{color:#444444;font-size: .9rem;}
+
+
+@media(min-width:375px){
+}
+@media(min-width:414px){
+
+}

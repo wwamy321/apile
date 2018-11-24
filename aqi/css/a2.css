@@ -1,0 +1,126 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-03 09:02:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-03 12:40:24
+*/
+body{background:#EBEBF0;height: 1100px;}
+footer ul li:nth-child(2) a{color:#11C00C;}
+footer ul li:nth-child(2) i{background:url(../images/bsx.png);background-size: 100%;}
+
+
+header{width: 100%;height: 50px;background:#2E2E30;}
+header ul{overflow: hidden;}
+header ul li{float: left;height: 44px;width: 20%;text-align: center;line-height: 3.4rem;}
+header ul li a{color:#CFCFCF; font-size: 1.1rem;}
+header ul li:nth-child(5){
+	background:url(../images/bt_.png) no-repeat 0px -8px;
+	background-size: 100%;
+}
+header ul li:nth-child(3){position: relative;}
+header ul li.one a{color:#0BBE06;}
+header ul li.one a:after{
+	display: block;
+	content:" ";
+	width: 28px;
+	height: 8px;
+	border-bottom:3px solid #0bbe06;
+	position: absolute;
+	bottom:0px;
+	left:18px;
+	border-radius:4px;
+}
+section{
+	width: 100%;
+	margin-bottom:4%;
+}
+section dl{width: 100%;}
+section dl dt{width: 100%;}
+section dl dt img{width: 100%;}
+section dl dd{ background:#fff; width: 96%;height: 40px;overflow: hidden;padding-top: 4%;padding-left: 4%;}
+
+section dl dd .left{width: 55%;height: 30px;float: left;}
+section dl dd .left ul li{float: left;height: 30px;line-height: 30px;font-size: .8rem;}
+section dl dd .left ul li img{height: 100%;}
+section dl dd .left ul li:nth-child(3){color:#0BBE06;}
+
+section dl dd .right{width: 40%;float: right;height: 30px;}
+section dl dd .right ul li{float: left;width: 33%;height: 30px;}
+section dl dd .right ul li:nth-child(1){
+	background:url(../images/bsk.png) no-repeat;
+	background-size:70%;
+}
+section dl dd .right ul li:nth-child(2){
+	background:url(../images/bsl.png) no-repeat;
+	background-size:80%;
+	position: relative;
+}
+section dl dd .right ul li:nth-child(2) sup{
+	position: absolute;
+	color:#ccc;
+	top:-10px;
+	right:-10px;
+}
+
+section dl dd .right ul li:nth-child(3){
+	background:url(../images/c0r.png) no-repeat 0px -6px;
+	background-size:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 375px){
+	header{height: 58px;}
+	header ul li.one a:after{left:24px;}
+	header ul li:nth-child(5){background: url(../images/bt_.png) no-repeat 0px -12px;
+		background-size:100%;}
+	section dl dd{height: 50px;}
+	section dl dd .right ul li{height: 37px;}
+}
+
+@media(min-width: 414px){
+	header ul li:nth-child(5){background: url(../images/bt_.png) no-repeat 0px -18px;
+		background-size:100%;}
+		section dl dd .right ul li{height: 37px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

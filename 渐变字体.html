@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		p{
+			width: 50%;
+			float: left;
+			font-size: 100px;
+			background:-webkit-linear-gradient(left,#ff0,#00f); /*渐变*/
+			-webkit-background-clip: text;   /*使背景颜色仅仅在文字下面有 */
+			-webkit-text-fill-color:transparent; /*字体颜色透明色 取代color默认颜色*/
+		}
+		h1{
+			width: 50%;
+			float: right;
+			font-size: 100px;
+			-webkit-text-stroke:1px #f00; /*镂空文字*/
+			animation:bs 7s linear infinite alternate;
+			color:#fff;
+			text-shadow: 0px 0px 5px #00c;
+
+		}
+		@keyframes bs{
+			0%{-webkit-text-stroke:1px #f00;}
+			25%{-webkit-text-stroke:1px #ff0;}
+			50%{-webkit-text-stroke:1px #0f0;}
+			75%{-webkit-text-stroke:1px #f0f;}
+			100%{-webkit-text-stroke:1px #0ff;}
+		}
+		h2{
+			font-size: 50px;
+			-webkit-box-reflect:below 0 -webkit-linear-gradient(transparent,transparent 50%,rgba(255,255,255,.2));
+			/*box-reflect 倒影 below向下倒影 0px 与倒影的距离  覆盖的渐变色*/
+		}
+	</style>
+</head>
+<body>
+	<p>小超酱</p>
+	<h1>小超酱</h1>
+	<h2>小超酱</h2>
+</body>
+</html>

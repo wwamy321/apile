@@ -1,0 +1,50 @@
+body{background:#FFF3F1;}
+#wrap{
+	width: 90%;
+	height:360px;
+	margin:30px auto;
+	position: relative;
+}
+#wrap .top img{position: absolute;z-index: 10; width: 100%;}
+#wrap>a>img{position: absolute;left:0px;top:0px;width: 16px;}
+#wrap form{
+	width: 90%;
+	background:#fff;
+	border:1px solid #FFECEB;
+	box-shadow: 1px 1px 2px #ffeceb;
+	border-radius: 10px;
+	position: absolute;
+	top:117px;
+	padding:5%;
+}
+#wrap form div{width: 100%;height: 40px;border-bottom:1px solid #DBD9DC;margin-top: 7px;}
+#wrap form div input{height: 38px;border:none;outline: none;line-height: 40px;float:left;font-size: 1.1rem;width: 82%;}
+#wrap form div i{display: inline-block;width: 38px;height: 38px;float: left;}
+#wrap form div i img{width: 32px;}
+#wrap form>a{float: right;margin: 6px auto;color:#A4A4A4;font-size: .9rem;}
+#wrap form button{width: 100%;height: 40px;border:none;outline: none;color:#fff;background:#FF4B14;font-size: 1.2rem;letter-spacing: 2px;border-radius:5px;}
+#wrap form p{font-size: 0.9rem;color:#EB4518;text-align: center;margin-top: 10px;}
+
+footer{width: 80%; margin:20px auto 0;}
+footer p{text-align: center;color:#999999;font-size: .9rem;}
+footer div{width: 75%;margin:20px auto;}
+footer div ul li{width: 50px;height:50px;float: left;margin-right: 20px;}
+footer div ul li img{width: 100%;}
+footer div ul li:last-child{margin-right: 0px;}
+
+
+@media(min-width: 375px){
+	#wrap form{top:138px;}
+	#wrap form div{height: 46px;}
+	#wrap form p{font-size: 1.2rem;}
+	footer{margin-top: 60px;}
+	footer p{font-size: 1.2em;}
+	footer div ul li{width: 60px;height: 60px;}
+}
+@media(min-width: 414px){
+	#wrap form{top:151px;}
+	footer{margin-top: 80px;}
+	footer p{font-size: 1.2em;}
+	footer div{width: 85%;}
+	footer div ul li{width: 80px;height: 80px;}
+}

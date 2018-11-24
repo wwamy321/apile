@@ -1,0 +1,35 @@
+body{height: 1100px;}
+header{width: 100%;height: 57px;overflow:hidden;border-bottom:1px solid #DBD9DC;}
+header ul{width: 98%;margin:5% auto 0px;overflow: hidden;}
+header ul li{float: left;text-align: center;height: 50px;width: 20%;}
+header ul li a{color:#353535;font-size: 1.1rem;}
+header ul li:nth-child(1) img{width: 46%;}
+header ul li:nth-child(5){float: right;}
+header ul li:nth-child(5) img{width: 46%;}
+header ul li:nth-child(2) a{color:#E73C12;}
+header ul li:nth-child(2) i{display: block;width: 100%;background: url(../images/btn_tab_select_line_color.9.png) no-repeat 0px -24px;background-size:100% 100%;height: 34px;}
+
+
+section{width: 100%;height: 60px;position:relative;border-bottom:1px solid #ccc;}
+section p{font-size: 1rem;line-height: 60px;padding-left: 2%;}
+section span{display: block;position: absolute;right: 8px;top:12px;font-size:.8rem;padding:2% 4%;background:#F55114;color:#fff;border-radius:4px;}
+
+main{width: 100%;margin-top: 3%;}
+main .con{width: 94%;margin:0px auto;}
+main .con dl{width: 30%;float: left;margin-left: 5%;margin-top: 4%;}
+main .con dl:nth-child(3n+1){margin-left: 0px;}
+main .con dl dt img{width: 100%;}
+main .con dl dd{font-size: .8rem;margin-top: 4%;}
+
+
+
+footer ul li:nth-child(1) a{color:#EA522D;}
+footer ul li:nth-child(1) i{background:url(../images/tab_book_rack_pressed.png);}
+
+@media(min-width: 375px){
+	header{height: 60px;}
+
+}
+@media(min-width: 414px){
+	header{height: 63px;}
+}

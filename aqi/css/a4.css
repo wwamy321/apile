@@ -1,0 +1,87 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-03 08:58:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-03 15:07:27
+*/
+body{height: 1100px;background:#EBEBF0;}
+footer ul li:nth-child(4) a{color:#11C00C;}
+footer ul li:nth-child(4) i{background:url(../images/bt1.png);background-size: 100%;}
+
+header{width: 100%;padding-bottom:5%;background:#3D3D40;overflow: hidden;margin-bottom: 3%;}
+header p{ margin:2% 0px; width: 100%;height: 40px;line-height: 40px;color:#FFFFFF;font-size: 1rem;text-align: center;position: relative;}
+header p i{display:block;width: 30px;height: 30px;background:url(../images/cj4.png);background-size: 100%;position:absolute;top:5px;right:10%;}
+header p span{display:block;width: 30px;height: 30px;background:url(../images/title_bar_search.png);background-size: 100%;position:absolute;top:5px;right:1%;}
+
+header .login{width: 100%;height: 70px;position:relative;line-height: 70px;}
+header .login i{width: 23%;float: left;height: 100%;background:url(../images/bkc.png) no-repeat; background-size:100%;margin-left: 1%; }
+header .login ul{width: 70%;float: right;}
+header .login ul li{float: left;}
+header .login ul li:last-child{float: right;margin-right: 4%;background:#515153;height: 30px;line-height: 30px;	margin-top: 20px;padding:0px 2%;border-radius: 15px;}
+header .login ul li:last-child a{font-size: .9rem;}
+header .login ul li a{color:#fff;font-size: 1rem;}
+
+
+section{width: 100%;background:#fff;margin-bottom:3%;}
+section .title{width: 96%;padding-left: 4%;font-size: 1.1rem;font-weight: 800;border-bottom:1px solid #EBEBEB;line-height: 2.4rem;}
+
+section .server{
+	width: 100%;
+	height: 80px;
+	position: relative;
+	overflow-x:scroll;
+
+}
+section .server ul{overflow: hidden;}
+section .server ul li{width: 40%;height: 57px; margin:10px 0px 10px 10px; background:#F9F9FB;float: left;border-radius: 10px;position:absolute;top:0px;}
+section .server ul li:nth-child(2){left:43%;}
+section .server ul li:nth-child(3){left:86%;}
+section .server ul li:nth-child(4){left:129%;}
+
+section .server ul li dl{width: 100%;height: 100%;}
+section .server ul li dl dt{width: 28%; margin:0px 2%; height: 100%;background:url(../images/b0k.png) no-repeat 0px 15px;background-size:92%;float: left;}
+section .server ul li dl dt img{width: 100%;margin-top: 30%;} 
+section .server ul li dl dd{width: 68%;float: right;margin-top: 2%;}
+section .server ul li dl dd.kt{margin-top: 9%;color:#A67322;}
+
+main{width: 100%;background:#fff;overflow: hidden;}
+main ul li{width: 33%;float: left;text-align: center;height:105px;border:1px solid #F2F2F2;margin-left: -1px;margin-bottom: -1px;}
+main ul li a{color:#343434;font-size: 1rem;}
+main ul li:nth-child(1) i{display: block;width:100%;height: 55px;background:url(../images/ax9.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(2) i{display: block;width:100%;height: 55px;background:url(../images/ax9.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(3) i{display: block;width:100%;height: 55px;background:url(../images/axa.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(4) i{display: block;width:100%;height: 55px;background:url(../images/ax_.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(5) i{display: block;width:100%;height: 55px;background:url(../images/axf.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(6) i{display: block;width:100%;height: 55px;background:url(../images/axe.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(7) i{display: block;width:100%;height: 55px;background:url(../images/axo.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(8) i{display: block;width:100%;height: 55px;background:url(../images/axh.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(9) i{display: block;width:100%;height: 55px;background:url(../images/axg.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(10) i{display: block;width:100%;height: 55px;background:url(../images/axk.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(11) i{display: block;width:100%;height: 55px;background:url(../images/axb.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(12) i{display: block;width:100%;height: 55px;background:url(../images/axi.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(13) i{display: block;width:100%;height: 55px;background:url(../images/axp.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(14) i{display: block;width:100%;height: 55px;background:url(../images/axd.png) no-repeat center center;background-size:40%;}
+main ul li:nth-child(15) i{display: block;width:100%;height: 55px;background:url(../images/axq.png) no-repeat center center;background-size:40%;}
+
+
+.guanyu{width: 100%;height: 50px;color:#333333;text-align: center;line-height: 50px;font-size: 1rem;letter-spacing: 1px;background:#FFFFFF;margin-top: 3%;}
+
+
+
+
+
+
+
+
+@media(min-width: 375px){
+	header .login{height: 84px;line-height: 84px;}
+	section .server ul li{height: 60px;}
+	section .server{height: 88px;}
+}
+@media(min-width: 414px){
+	header .login{height: 90px;line-height: 90px;}
+	header .login ul li:last-child{margin-top: 26px;}
+	section .server ul li{height: 60px;}
+	section .server{height: 92px;}
+	section .server ul li dl dt img{margin-top: 13%;}
+}
